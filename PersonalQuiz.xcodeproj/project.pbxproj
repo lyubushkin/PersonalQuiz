@@ -56,15 +56,55 @@
 		85C6301125D543CD00FFC0BA /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				85C6301225D543CD00FFC0BA /* AppDelegate.swift */,
-				85C6301425D543CD00FFC0BA /* SceneDelegate.swift */,
-				85C6301625D543CD00FFC0BA /* ViewController.swift */,
-				85C6301825D543CD00FFC0BA /* Main.storyboard */,
-				85C6301B25D543D000FFC0BA /* Assets.xcassets */,
-				85C6301D25D543D000FFC0BA /* LaunchScreen.storyboard */,
-				85C6302025D543D000FFC0BA /* Info.plist */,
+				85C6302B25D5448000FFC0BA /* SupportingFiles */,
+				85C6302825D5443600FFC0BA /* ViewControllers */,
+				85C6302A25D5446600FFC0BA /* Models */,
+				85C6302925D5444F00FFC0BA /* Storyboards */,
+				85C6302D25D5449700FFC0BA /* Resources */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		85C6302825D5443600FFC0BA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				85C6301625D543CD00FFC0BA /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		85C6302925D5444F00FFC0BA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				85C6301825D543CD00FFC0BA /* Main.storyboard */,
+				85C6301D25D543D000FFC0BA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		85C6302A25D5446600FFC0BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85C6302B25D5448000FFC0BA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				85C6301225D543CD00FFC0BA /* AppDelegate.swift */,
+				85C6301425D543CD00FFC0BA /* SceneDelegate.swift */,
+				85C6302025D543D000FFC0BA /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		85C6302D25D5449700FFC0BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85C6301B25D543D000FFC0BA /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3Z235FL72;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.lyubushkin.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3Z235FL72;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.lyubushkin.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
