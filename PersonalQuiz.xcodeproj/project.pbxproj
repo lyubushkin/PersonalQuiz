@@ -56,10 +56,10 @@
 		85C6301125D543CD00FFC0BA /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				85C6302B25D5448000FFC0BA /* SupportingFiles */,
 				85C6302825D5443600FFC0BA /* ViewControllers */,
 				85C6302A25D5446600FFC0BA /* Models */,
 				85C6302925D5444F00FFC0BA /* Storyboards */,
+				85C6302B25D5448000FFC0BA /* SupportingFiles */,
 				85C6302D25D5449700FFC0BA /* Resources */,
 			);
 			path = PersonalQuiz;
